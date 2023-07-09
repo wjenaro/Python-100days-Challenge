@@ -20,3 +20,8 @@ elif tip==12:
 elif tip==15:
     pay= (bill*1.15)/numberOfP
     print(f"Each person is supposed to pay: ${str(round(pay, 1))}")
+
+
+'''
+Good word -
+'''
