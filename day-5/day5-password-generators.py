@@ -20,7 +20,7 @@ while True:
 numbers 
 '''
 capital_letters = [chr(x) for x in range(65, 91)]
-small_letters = [chr(x) for x in range(97, 123)]
+small_letters =   [chr(x) for x in range(97, 123)]
 special_characters = [chr(x) for x in range(33, 48)] + [chr(x) for x in range(58, 65)] + [chr(x) for x in range(91, 97)] + [chr(x) for x in range(123, 127)]
 numbers_ = [str(x) for x in range(0, 10)]
 # Print the lists

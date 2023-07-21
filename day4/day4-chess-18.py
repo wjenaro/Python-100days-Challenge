@@ -12,7 +12,7 @@ def theboard():
 def guess():
     board=theboard()
     computerguess=random.choice(board)
-    print(computerguess)
+    
     random_position = random.randint(0, len(computerguess) - 1)
     computerguess[random_position] = "😃"
 
