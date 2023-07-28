@@ -15,7 +15,7 @@ print(len(myword))
 #convert to string
 #print(myword)
 #check letter in the word
-letter=input("guess letter: ")
+letter=input("guess letter: ").lower()
 #print(len(myword))
 
 if letter in myword.lower():
