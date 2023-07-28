@@ -44,7 +44,6 @@ else:
     pass_list=remain_char+randomCapital+random_special+random_num+random_small
 
 mypassword=''.join(pass_list)
-
 print(mypassword)
     
     
