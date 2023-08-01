@@ -17,11 +17,15 @@ for i in range(number_of_letter):
 print(dashes)
 
 #guess letter in the word
-word=my_guess.strip()
-for w in range(number_of_letter):
-    print(w)
+word=my_guess.strip().lower()
 my_guess_letter=input("Guess letter :")
-if my_guess_letter in my_guess.strip():
-    print(" the letter is in the world")
-else:
-    print("the letter not in the word")
+#replace guess with dash 
+for position in range(number_of_letter):
+    letter=word[position]
+    if my_guess_letter==letter:
+        dashes[position]=letter
+
+print(dashes)
+
+
+
