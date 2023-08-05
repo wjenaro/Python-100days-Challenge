@@ -21,7 +21,9 @@ print(blank_spaces)
 lives=number_of_letters #I know it is not needed but it is okey --- just practicing 
 #use while 
 myword=word.lower()
+lives_saved=0
 while lives>0:
+    
     #guess letter
     my_guess=input("Guesss a letter in the word: __ ")
     print(f"My guess is __: {my_guess}")
@@ -32,7 +34,16 @@ while lives>0:
             if my_guess==letter:
                 blank_spaces[position]=letter
         print(blank_spaces)
+        lives_saved+=1
     else:
         print("You lost Live")
+    if " _ " not in blank_spaces and lives>0:
+        print("You won Game by Saving Lives")
+    elif lives==1 and " _ " in blank_spaces:
+        print("you Lost The Game")
+        print(f"You lost {number_of_letters-lives_saved} lives--- SO Bad")
     lives-=1
+    
+    
 
+##workings but lost myself at the last part
