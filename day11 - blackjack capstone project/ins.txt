@@ -1,0 +1,18 @@
+building a blackjack game: 
+Blackjack, also known as twenty-one or Pontoon, is one of the most popular casino card games in the world. Much of blackjack's popularity is due to the mix of chance with elements of skill, and the publicity that surrounds card counting (keeping track of which cards have been played since the last shuffle). Blackjack's precursor was vingt-et-un ("twenty-one"), which originated in French casinos around 1700, and did not offer the 3:2 bonus for a two-card 21.
+
+
+The play goes as follows:
+
+If the dealer has blackjack and the player doesn't, the player automatically loses.
+If the player has blackjack and the dealer doesn't, the player automatically wins.
+If both the player and dealer have blackjack then it's a push.
+If neither side has blackjack, then each player plays out his hand, one at a time.
+When all the players have finished the dealer plays his hand.
+The player's options for playing his or her hand are:
+
+Hit: Take another card.
+Stand: Take no more cards.
+Double down: Double the wager, take exactly one more card, and then stand.
+Split: Double the wager and have each card be the first card in a new hand. This option is available only when both cards have the same value. Sometimes two face cards will be considered acceptable for splitting, as each is 10 points.
+Surrender: Forfeit half the bet and give up the hand. Surrender was common during the early- and mid-20th century, but is no longer offered at most casinos.
