@@ -19,7 +19,7 @@ while is_aution:
     name=input("What is you name?: ")
     bid=int(input("What is you bid?: "))
     auction_bids[name]=bid
-    print(auction_bids)
+   
     bidders=input("Are there other bidders? 'yes' or 'no' ")
     if bidders=="no":
         bid_winner=max(auction_bids.items(),  key=lambda x: x[1])

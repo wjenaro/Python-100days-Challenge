@@ -11,7 +11,7 @@ def is_prime(num):
     
 
 number=int(input("Give a number: "))
-print(number**0.5)
+
 number_is_prime=is_prime(number)
 if number_is_prime==True:
     print(f"{number}  is prime number")
