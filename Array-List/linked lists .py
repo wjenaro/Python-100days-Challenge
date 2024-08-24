@@ -1,10 +1,10 @@
 class Node:
     def __init__(self, data, next=None):
         self.data=data
-        self.next=None
+        self.next=next
 class LinkedList:
     def __init__(self, head=None):
-        self.head = None
+        self.head = head
 
     def append(self, data):
         new_node = Node(data)
@@ -21,7 +21,7 @@ class LinkedList:
         while current:
             print(current.data, end=' -> ' if current.next else '')
             current = current.next
-        print()
+        print("=>  End")
 # Create a new LinkedList
 linked_list = LinkedList()
 
